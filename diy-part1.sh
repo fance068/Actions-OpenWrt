@@ -15,5 +15,5 @@
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git godproxy https://github.com/project-lede/luci-app-godproxy' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+git clone https://github.com/project-lede/luci-app-godproxy package/openwrt-packages/luci-app-godproxy
